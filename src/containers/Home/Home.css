@@ -1,0 +1,47 @@
+.home {
+    min-height: calc(100vh - 65px);
+    background: url("./../../assets/watercolor.png") repeat;
+}
+
+.home .container{
+    min-height: calc(100vh - 65px);
+    padding: 0 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.home .text-content{
+    font-size: 64px;
+    color: black;
+    font-weight: bold;
+}
+
+.home .media-content{
+    justify-self: end;
+}
+
+.home .main-img{
+    display: block;
+    width: 100%;
+}
+
+.wave-img{
+    width: 100%;
+    height: 100px;
+    background: url("./../../assets/wave.png");
+    background-size: 100% 100%;
+}
+
+.home .middle-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #00ADB5;
+    padding: 0 200px 50px;
+    align-items: center;
+}
+
+.home .description-text{
+    color: #EEEEEE;
+    font-size: 30px;
+}

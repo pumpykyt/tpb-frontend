@@ -1,0 +1,38 @@
+.nav{
+    background-color: #eeeeee;
+}
+
+.nav .container{
+    margin: 0 200px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.spacer{
+    flex: 1 1 0;
+}
+
+.logo-text{
+    font-size: 36px;
+    color: #222831;
+    font-weight: bold;
+}
+
+.nav-item{
+    color: #393E46;
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.nav-auth-item{
+    background-color: #00ADB5;
+    font-size: 20px;
+    color: #eeeeee;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
